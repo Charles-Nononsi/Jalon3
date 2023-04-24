@@ -1,0 +1,26 @@
+<div class="product-catalogue">
+    <h1>product Catalogue</h1>
+    <p class="message-p">{{productMessage}}</p> 
+    <table>
+        <thead>
+            <tr>
+                <th>Image </th>
+                <th>Name </th>
+                <th>Price</th>
+                <th>Availability</th>
+                <th>Description</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of productCatalogue">
+                <td><img src="{{item.image}}" /></td>
+                <td>{{item.name}}</td>
+                <td>{{item.price}}</td>
+                <td>{{item.availability}}</td>
+                <td>{{item.description}}</td>
+                <td><button (click)="deleteProduct(item.id)">Delete</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

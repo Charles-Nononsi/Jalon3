@@ -1,0 +1,165 @@
+{
+  "pharmacien": [
+    {
+      "name": "pheny",
+      "password": "00000000",
+      "email": "phepy@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "charles",
+      "password": "12345678",
+      "email": "charles@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "dave",
+      "password": "12345678",
+      "email": "dave@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "junior1",
+      "password": "12345678",
+      "email": "junior1@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "riche",
+      "password": "12345678",
+      "email": "riche12345678",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "name": "AdvilMed",
+      "price": "100",
+      "availability": "disponible",
+      "description": "molécule d'amoxicilline",
+      "image": "https://www.pharmashopi.com/images/Image/advilmed-enfants-sirop-1406884331.jpg",
+      "id": 8
+    },
+    {
+      "name": "Hélicidine",
+      "price": "520",
+      "availability": "non disponible",
+      "description": "molécule de méfloquine",
+      "image": "https://www.pharmashopi.com/images/Image/Helicidine-10-sans-sucre-flacon-de-250-ml3400922385624.jpg",
+      "id": 10
+    },
+    {
+      "name": "doliprane",
+      "price": "100",
+      "availability": "disponible",
+      "description": "molécule de paracétamol",
+      "image": "https://cdn.pharmaciedesdrakkars.com/media/images/products/3400932320189-ld-0023-front-609a8f23a6deb.jpg",
+      "id": 12
+    },
+    {
+      "name": "claradole",
+      "price": "250",
+      "availability": "disponible",
+      "description": "molécule de benzodiazépine",
+      "image": "https://www.mon-pharmacien-conseil.com/17913-large_default/claradol-500-mg-16-comprimes-secables.jpg",
+      "id": 13
+    },
+    {
+      "name": "B-complexe",
+      "price": "250",
+      "availability": "non disponible",
+      "description": "molécule de vitamine",
+      "image": "https://m.media-amazon.com/images/I/814OepF4-gL._AC_SY879_.jpg",
+      "id": 14
+    },
+    {
+      "name": "Efferalgan",
+      "price": "125",
+      "availability": "non disponible",
+      "description": "molécule de paracétamol",
+      "image": "https://www.upsa-nosproduits.com/sites/default/files/styles/produit/public/pack_hepato._3d_efferalgan_1000_berry_eff.png?itok=tzS9Xw3b",
+      "id": 15
+    },
+    {
+      "name": "Vitamine C",
+      "price": "520",
+      "availability": "disponible",
+      "description": "molécule de vitamine",
+      "image": "https://www.upsa-nosproduits.com/sites/default/files/styles/produit/public/pack_3d_vit.c_1000_eff.png?itok=RykojVR3",
+      "id": 16
+    },
+    {
+      "name": "Tylenol",
+      "price": "50",
+      "availability": "disponible",
+      "description": "molécule de paracétamol",
+      "image": "https://www.londondrugs.com/on/demandware.static/-/Sites-londondrugs-master/default/dwb75365e3/products/L2711257/large/L2711257.JPG",
+      "id": 17
+    },
+    {
+      "name": "Mélatonine",
+      "price": "100",
+      "availability": "disponible",
+      "description": "molécule de cellulose",
+      "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61ngVb+uBgL._AC_SL1000_.jpg",
+      "id": 18
+    },
+    {
+      "name": "euphon",
+      "price": "35",
+      "availability": "disponible",
+      "description": "SIROP CONTRE LA TOUX",
+      "image": "https://www.pharma-dlp.com/produit/img_euphon-codeine-erysimum-300-ml.jpg",
+      "id": 19
+    }
+  ],
+  "users": [
+    {
+      "name": "ben",
+      "password": "11111111",
+      "email": "ben@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "BILLY",
+      "password": "12345678",
+      "email": "billy@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "junior",
+      "password": "12345678",
+      "email": "junior6@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "AIMEE",
+      "password": "12345678",
+      "email": "aimee@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "Rich",
+      "password": "12345678",
+      "email": "riche@gmail.com",
+      "id": 5
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
